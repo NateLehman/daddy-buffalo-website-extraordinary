@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
-import logo from './bufflo.png';
+import bufflogo from './bufflo.png';
 import './App.css';
 import { Roster, Mission } from './Content';
+import { ShakeHorizontal } from 'reshake';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={bufflogo} className="App-logo" alt="logo" />
           <h1 className="App-title">daddy buffalo</h1>
         </header>
         <p className="App-intro">good seeing u moose man</p>
         <div className="App-body">
           <div className="App-article">
             <h2>Mission</h2>
-            { Mission.map(paragraph => <p>{paragraph}</p>) }
+            { Mission.map((paragraph, i) => <p key={i}>{paragraph}</p>) }
             <h2>Roster</h2>
             <ul>
-              { Roster.map(({name, url}) => <li><a href={url}>{name}</a></li>) }
+              { Roster.map(({name, url}, i) => <li key={i}><ShakeHorizontal><a href={url}>{name}</a></ShakeHorizontal></li>) }
             </ul>
           </div>
         </div>

@@ -16,7 +16,7 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .App-intro {
@@ -46,6 +46,7 @@
 
 .App-article li {
   margin-bottom: 10px;
+  width: fit-content;
 }
 
 @media all and (min-width: 800px) {
