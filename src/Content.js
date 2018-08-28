@@ -1,8 +1,8 @@
 const Roster = [
   { name: 'sgmaniak', url: '/artist/sgmaniak' },
-  { name: 'Allan Fine', url: '/artist/allanfine' },
-  { name: 'Cates', url: '/artist/cates' },
-  { name: 'LIGMA', url: '/artist/ligma' },
+  { name: 'Jae Antwi', url: '/artist/jaeantwi' },
+  { name: 'Lucy DK', url: '/artist/lucydk' },
+  { name: 'Lackhoney', url: '/artist/lackhoney' },
 ];
 
 const Mission = [
