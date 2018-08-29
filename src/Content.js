@@ -10,4 +10,8 @@ const Mission = [
   'As a label we strive for the less stress approach, giving musicians a reputable name to release music under without the stress of the standard strict scheduling and lockdown of signing to other labels.',
 ];
 
-export { Roster, Mission };
+const About = [
+  "Daddy Buffalo is a music collective and label created by and for real buffalos. It's artists are devoted to the enlightened pursuit of their craft, in spite of the challenges of being 800-1000 pound animals.",
+];
+
+export { Roster, Mission, About };

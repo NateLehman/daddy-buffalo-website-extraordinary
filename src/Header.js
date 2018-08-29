@@ -8,10 +8,10 @@ import { Switch, Route, Link } from 'react-router-dom';
 const Header = () => {
     return (
         <Switch>
-            <Route path="/artist" render={() => (
+            <Route path="/artist/:id" render={() => (
                 <header className="SlimHeader-header">
                     <Link to="/">
-                    <img src={bufflogo} className="SlimHeader-logo" alt="daddy buffalo logo" />
+                        <img src={bufflogo} className="SlimHeader-logo" alt="daddy buffalo logo" />
                     </Link>
                     <h1 className="SlimHeader-title">daddy buffalo</h1>
                 </header>
