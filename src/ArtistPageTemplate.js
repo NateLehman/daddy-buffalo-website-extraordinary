@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import profpic from './bufflo.png';
+import './App.css';
 
 class ArtistPageTemplate extends Component {
     constructor(props) {
@@ -11,7 +12,12 @@ class ArtistPageTemplate extends Component {
 
     render() {
         return (
-            <div><img src={this.artistImage} alt={this.artistName} /></div>
+            <div className="App-body">
+                <div className="App-article">
+                    <h1>{this.artistName}</h1>
+                    <p>{this.artistBio}</p>
+                </div>
+            </div>
         );
     }
 }

@@ -1,0 +1,17 @@
+.SlimHeader-header {
+    background-color: rgb(226, 132, 255);
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.SlimHeader-logo {
+    height: 45px;
+    margin: 8px;
+    margin-right: 12px;
+}
+
+.SlimHeader-title {
+    font-size: 2.0em;
+};
