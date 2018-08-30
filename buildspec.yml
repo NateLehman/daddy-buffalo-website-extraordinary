@@ -11,6 +11,5 @@ phases:
      - npm run-script build
  post_build:
    commands:
-     - echo "post_build step"
      - cd build
      - aws s3 sync --delete . "s3://daddybuffalo.com"
