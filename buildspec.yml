@@ -12,4 +12,13 @@ phases:
  post_build:
    commands:
      - cd build
-     - aws s3 sync --delete . "s3://daddybuffalo.com"
+     - aws s3 sync --delete . $BUILD_OUTPUT_BUCKET
+     - zip -r ../package.zip *
+    #  Oh man look who's using AWS lmao
+cache:
+  paths:
+    - 'node_modules/**/*'
+artifacts:
+  files:
+    - package.zip
+  discar-paths: yes
