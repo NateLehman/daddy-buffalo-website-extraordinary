@@ -13,4 +13,4 @@ phases:
    commands:
      - echo "post_build step"
      - ls
-     - aws s3 sync --delete "build/*" "s3://daddybuffalo.com"
+     - aws s3 sync --delete "./build/*" "s3://daddybuffalo.com"
