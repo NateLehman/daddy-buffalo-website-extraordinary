@@ -12,7 +12,7 @@ phases:
  post_build:
    commands:
      - cd build
-     - aws s3 sync --delete . $BUILD_OUTPUT_BUCKET
+     - 'aws s3 sync --delete . $BUILD_OUTPUT_BUCKET'
      - zip -r ../package.zip *
     #  Oh man look who's using AWS lmao
 cache:
