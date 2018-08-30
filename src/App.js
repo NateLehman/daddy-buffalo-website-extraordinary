@@ -10,6 +10,8 @@ import sortBy from 'lodash.sortby';
 import { SocialIcon } from 'react-social-icons';
 import { ShakeRotate } from 'reshake';
 
+import SocialLink from './components/SocialLink';
+
 class App extends Component {
   render() {
     return (
@@ -32,14 +34,12 @@ class App extends Component {
                       <ul>
                         <li>
                           <ShakeRotate>
-                            <SocialIcon url="https://www.instagram.com/fatherbison/" target="_blank" rel="noopener noreferrer"/>
-                            <a href="https://www.instagram.com/fatherbison/" target="_blank" rel="noopener noreferrer">@fatherbison</a>
+                            <SocialLink url="https://www.instagram.com/fatherbison/" display="@fatherbison"/>
                           </ShakeRotate>
                         </li>
                         <li>
                           <ShakeRotate>
-                            <SocialIcon url="https://www.facebook.com/papaBuffalinus/" target="_blank" rel="noopener noreferrer"/>
-                            <a href="https://www.facebook.com/papaBuffalinus/" target="_blank" rel="noopener noreferrer">@papaBuffalinus</a>
+                            <SocialLink url="https://www.facebook.com/papaBuffalinus/" display="@papaBuffalinus"/>
                           </ShakeRotate>
                         </li>
                       </ul>
