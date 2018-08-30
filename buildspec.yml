@@ -12,6 +12,5 @@ phases:
  post_build:
    commands:
      - echo "post_build step"
-     - ls
      - cd build
      - aws s3 sync --delete . "s3://daddybuffalo.com"
