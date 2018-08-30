@@ -9,8 +9,8 @@ phases:
  build:
    commands:
      - npm run-script build
-     - ls
  post_build:
    commands:
      - echo "post_build step"
+     - ls
      - aws s3 sync --delete "build/*" "s3://daddybuffalo.com"
