@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShakeHorizontal } from 'reshake';
+import { ShakeRotate } from 'reshake';
 
 const ArtistListItem = ({ children, url }) => {
     return (
         <li>
-            <ShakeHorizontal>
+            <ShakeRotate>
                 <Link to={url}>{children}</Link>
-            </ShakeHorizontal>
+            </ShakeRotate>
         </li>
     );
 };

@@ -8,6 +8,7 @@ import Header from './Header';
 import sortBy from 'lodash.sortby';
 
 import { SocialIcon } from 'react-social-icons';
+import { ShakeRotate } from 'reshake';
 
 class App extends Component {
   render() {
@@ -29,8 +30,18 @@ class App extends Component {
                       <ArtistList artists={sortBy(Roster, 'name')}/>
                       <h2>buffalinks</h2>
                       <ul>
-                        <li><SocialIcon url="https://www.instagram.com/fatherbison/" /> <a href="https://www.instagram.com/fatherbison/">@fatherbison</a></li>
-                        <li><SocialIcon url="https://www.facebook.com/papaBuffalinus/" /> <a href="https://www.facebook.com/papaBuffalinus/">@papaBuffalinus</a></li>
+                        <li>
+                          <ShakeRotate>
+                            <SocialIcon url="https://www.instagram.com/fatherbison/" target="_blank" rel="noopener noreferrer"/>
+                            <a href="https://www.instagram.com/fatherbison/" target="_blank" rel="noopener noreferrer">@fatherbison</a>
+                          </ShakeRotate>
+                        </li>
+                        <li>
+                          <ShakeRotate>
+                            <SocialIcon url="https://www.facebook.com/papaBuffalinus/" target="_blank" rel="noopener noreferrer"/>
+                            <a href="https://www.facebook.com/papaBuffalinus/" target="_blank" rel="noopener noreferrer">@papaBuffalinus</a>
+                          </ShakeRotate>
+                        </li>
                       </ul>
                     </div>
                   </div>
