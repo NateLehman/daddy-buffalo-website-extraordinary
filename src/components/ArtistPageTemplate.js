@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import profpic from './bufflo.png';
-import './App.css';
+import profpic from '../bufflo.png';
+import '../App.css';
 
 class ArtistPageTemplate extends Component {
     artistImage = profpic;

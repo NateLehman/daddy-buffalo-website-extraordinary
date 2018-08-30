@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Roster, Mission, About } from './Content';
+import { Roster, About } from './Content';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import ArtistList from './ArtistList';
-import ArtistPages from './ArtistPages';
-import Header from './Header';
+import ArtistList from './components/ArtistList';
+import ArtistPages from './components/ArtistPages';
+import Header from './components/Header';
 import sortBy from 'lodash.sortby';
 
 import { SocialIcon } from 'react-social-icons';

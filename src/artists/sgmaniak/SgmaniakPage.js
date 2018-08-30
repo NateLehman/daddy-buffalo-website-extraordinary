@@ -1,5 +1,4 @@
-import React from 'react';
-import ArtistPageTemplate from '../../ArtistPageTemplate';
+import ArtistPageTemplate from '../../components/ArtistPageTemplate';
 
 class SgmaniakPage extends ArtistPageTemplate {
     artistName = 'sgmaniak';

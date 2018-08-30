@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import SgmaniakPage from './artists/sgmaniak/SgmaniakPage';
+import SgmaniakPage from '../artists/sgmaniak/SgmaniakPage';
 
 const unfinished = () => <div>under construction lmao</div>;
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import bufflogo from './bufflo0.png';
-import './App.css';
-import './SlimHeader.css';
+import bufflogo from '../bufflo0.png';
+import '../App.css';
+import '../SlimHeader.css';
 
 import { Switch, Route, Link } from 'react-router-dom';
 
