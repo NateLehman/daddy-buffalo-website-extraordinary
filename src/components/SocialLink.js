@@ -9,7 +9,7 @@ const SocialLink = ({ url, display }) => {
     };
     return (
         <div>
-            <SocialIcon {...linkProperties} url={url}/> { display !== undefined ? <a href={url}>{display}</a> : null }
+            <SocialIcon {...linkProperties} url={url}/> { display !== undefined ? <a {...linkProperties} href={url}>{display}</a> : null }
         </div>
     );
 };

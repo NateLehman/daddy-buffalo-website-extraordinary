@@ -1,2 +1,2 @@
 # Daddy Buffalo
-Resistance is futile.
+Whats in the bag?

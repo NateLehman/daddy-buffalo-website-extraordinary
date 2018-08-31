@@ -1,5 +1,5 @@
 const Roster = [
-  { name: 'sgmaniak', url: '/artist/sgmaniak' },
+  { name: 'Sgmaniak', url: '/artist/sgmaniak' },
   { name: 'Jae Antwi', url: '/artist/jaeantwi' },
   { name: 'Lucy DK', url: '/artist/lucydk' },
   { name: 'Lackhoney', url: '/artist/lackhoney' },
