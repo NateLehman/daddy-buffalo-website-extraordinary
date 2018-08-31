@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Roster, About } from './Content';
+import { Roster, About, FunText } from './Content';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ArtistList from './components/ArtistList';
 import ArtistPages from './components/ArtistPages';
 import Header from './components/Header';
 import sortBy from 'lodash.sortby';
+import sample from 'lodash.sample';
 import { Link } from 'react-router-dom';
 
 import { ShakeRotate } from 'reshake';
@@ -25,7 +26,7 @@ class App extends Component {
             <Route render={ (props) => {
               return (
                 <div>
-                  <p className="App-intro">good seeing u moose man</p>
+                  <p className="App-intro">{sample(FunText)}</p>
                   <div className="App-body">
                     <div className="App-article">
                       <h2>bisonews</h2>
