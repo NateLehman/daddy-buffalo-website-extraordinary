@@ -14,4 +14,12 @@ const About = [
   "Daddy Buffalo is a music collective and label created by and for real buffalos. Its artists are devoted to the enlightened pursuit of their craft, in spite of the challenges of being 800-1000 pound animals.",
 ];
 
-export { Roster, Mission, About };
+const FunText = [
+  'good seeing u moose man',
+  'whats in the bag?',
+  'slide me some skin dooder',
+  'you made it congrats',
+  'buffalo buffalo buffalo buffalo',
+];
+
+export { Roster, Mission, About, FunText };
