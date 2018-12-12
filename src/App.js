@@ -13,8 +13,6 @@ import { ShakeRotate } from 'reshake';
 
 import SocialLink from './components/SocialLink';
 
-import SingleArt from './artists/jaeantwi/singleart.jpg';
-
 class App extends Component {
   render() {
     return (
@@ -30,11 +28,7 @@ class App extends Component {
                   <div className="App-body">
                     <div className="App-article">
                       <h2>bisonews</h2>
-                      <p>Our very own <Link to="/artist/jaeantwi">Jae Antwi</Link> has a new single:</p>
-                      <img src={SingleArt} alt="you and i"/>
-                      <p><SocialLink url="https://open.spotify.com/track/55SN36UKKHRcT4iNE4pgDN" display="Spotify"/></p>
-                      <p><SocialLink url="https://itunes.apple.com/us/album/you-and-i/1433845213" display="Apple Music"/></p>
-                      <p><SocialLink url="https://soundcloud.com/jaeantwi/you-and-i" display="SoundCloud"/></p>
+                      <p>nothing to see here</p>
                       <h2>buffalinfo</h2>
                       { About.map((paragraph, i) => <p key={i}>{paragraph}</p>) }
                       <h2>buffalos</h2>
