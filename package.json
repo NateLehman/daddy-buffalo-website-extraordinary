@@ -8,7 +8,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.1",
+    "react-scripts": "^2.1.8",
     "react-social-icons": "^3.0.0",
     "reshake": "^1.1.5",
     "styled-components": "^3.4.5"
